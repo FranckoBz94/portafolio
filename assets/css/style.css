@@ -612,6 +612,14 @@ section {
   background: #7377ad;
 }
 
+.typescript {
+  background: #007acc;
+}
+
+.toastify {
+  background: #aa2aee;
+}
+
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -968,8 +976,16 @@ section {
   background: #004646;
 }
 
-.color-row > div {
+.container_language {
   flex-wrap: wrap;
+  max-height: 40px;
+  transition: 0.5s !important;
+}
+
+.container_language:hover {
+  height: auto;
+  max-height: 100px;
+  min-height: 40px;
 }
 
 .gallery .gallery-item {
@@ -1655,4 +1671,14 @@ section {
   border-radius: 5px;
   width: 33%;
   padding: 10px;
+}
+
+.img-fluid {
+  object-fit: fill;
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+  min-height: 250px;
+  max-height: 250px;
+  background-repeat: no-repeat;
 }

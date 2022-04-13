@@ -623,8 +623,13 @@ progress {
 }
 
 .img-fluid {
+  object-fit: fill;
   max-width: 100%;
+  width: 450px;
   height: auto;
+  min-height: 250px;
+  max-height: 250px;
+  background-repeat: no-repeat;
 }
 
 .img-thumbnail {
